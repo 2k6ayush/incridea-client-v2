@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+* {
+  background-image: url('/temp_event_bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
